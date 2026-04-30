@@ -1,7 +1,10 @@
 # Netflix-GPT 
 - Create App with vite 
 - Configure TailwindCss
+- install react-router-dom
 
+- Header 
+- Login Form
 
 # Features 
 - Login / signUp Page

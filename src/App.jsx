@@ -1,12 +1,13 @@
 
 import './App.css'
+import Body from './component/Body'
 
 function App() {
 
 
   return (
     <>
-     <h1 className='font-bold text-3xl text-gray-800'>HEllo world</h1>
+   <Body/>
     </>
   )
 }
