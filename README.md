@@ -10,6 +10,9 @@
 - Firebase setup 
 - Deploy our App to Production 
 - signup && signIn user account using fireBase API 
+- BUGFIX : if the user not login re direct to /Browse to login page and vice-versa
+
+
 
 
 - Header 
