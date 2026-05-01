@@ -2,6 +2,15 @@
 - Create App with vite 
 - Configure TailwindCss
 - install react-router-dom
+- Routing of App
+- Login Form
+- Sign up Form 
+- Form Validation 
+- useRef Hook
+- Firebase setup 
+- Deploy our App to Production 
+- signup && signIn user account using fireBase API 
+
 
 - Header 
 - Login Form
