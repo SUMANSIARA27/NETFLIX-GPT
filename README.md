@@ -11,6 +11,18 @@
 - Deploy our App to Production 
 - signup && signIn user account using fireBase API 
 - BUGFIX : if the user not login re direct to /Browse to login page and vice-versa
+- Add a constant file for constant value
+- Register TMDB API and create an APP & get access token 
+- GET Data from TMDB now playing movies list API
+- Custom hook for nowPlaying movies
+- Create movie slice 
+- Update store with movies list 
+- Planning for Main container and secondary container 
+- Fetch data for trailer video 
+- Update store for trailer video 
+- Embedded youtube video make it Auto play and mute 
+- add tailwind and svg  for looking good 
+
 
 
 
