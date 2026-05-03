@@ -5,7 +5,6 @@ import moviesReducer from "./movieSlice";
     reducer:{
         user:userReducer,
         movies:moviesReducer
-
     }
 })
 export default appStore;

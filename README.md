@@ -3,6 +3,7 @@
 - Configure TailwindCss
 - install react-router-dom
 - Routing of App
+- Header
 - Login Form
 - Sign up Form 
 - Form Validation 
@@ -22,13 +23,10 @@
 - Update store for trailer video 
 - Embedded youtube video make it Auto play and mute 
 - add tailwind and svg  for looking good 
-
-
-
-
-
-- Header 
-- Login Form
+- Secondary container of Browse page 
+- Fetch & make custom hook NowPlaying movie , popular movies , Top rated movies & upcoming movies 
+- use slice for NowPlaying movie , popular movies , Top rated movies & upcoming movies 
+- Add movie List for NowPlaying movie , popular movies , Top rated movies & upcoming movies 
 
 # Features 
 - Login / signUp Page
@@ -40,7 +38,7 @@
       - Tailer Play in Background 
       - Title and Description 
       - Movie suggestion
-        - Movie List 
+      - Movie List 
 - Netflix-GPT 
   -Search bar 
   - Movie suggestion

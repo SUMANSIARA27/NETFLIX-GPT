@@ -15,7 +15,6 @@ const Header = () => {
   const handleSignOut = () => {
     signOut(auth)
       .then(() => navigate("/"))
-      .catch((error) => console.log(error));
   };
 
   useEffect(() => {

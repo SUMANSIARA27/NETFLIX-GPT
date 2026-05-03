@@ -1,28 +1,21 @@
 import useNowPlayingMovies from "../hook/useNowPlayingMovies";
+import usePopularMovies from "../hook/usePopularMovies";
+import useTopRatedMovies from "../hook/useTopRatedMovies";
+import useUpComingMovies from "../hook/useUpComingMovies";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
+import SecondaryContainer from "./SecondaryContainer";
 
 const Browse = () => {
   useNowPlayingMovies();
+  usePopularMovies();
+  useTopRatedMovies();
+  useUpComingMovies();
   return (
-    <div className="overflow-hidden w-screen aspect-video">
+    <div>
       <Header />
       <MainContainer />
-
-      {/* 
-
-  section 1 //  
-   -- main container 
-    - video playing background 
-    - title & description 
-
-   section 2 //  
-  -- Secondary container 
-     -- movie list * n 
-      -- card * n
-  
-
-       */}
+      <SecondaryContainer/>
     </div>
   );
 };

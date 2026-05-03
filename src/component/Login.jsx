@@ -37,13 +37,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value,
-          })
-            .then(() => {
-              
-            })
-            .catch((error) => {
-               console.log(error);
-            });
+          }).then(() => {});
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -56,11 +50,8 @@ const Login = () => {
         email.current.value,
         password.current.value,
       )
-        .then((userCredential) => {
+        .then(() => {
           // Signed in
-          const user = userCredential.user;
-          console.log(user);
-         
         })
         .catch((error) => {
           const errorCode = error.code;
